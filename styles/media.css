@@ -1,0 +1,261 @@
+@media(max-width: 1090px) {
+
+    .header_text {
+        margin-left: 0px;
+    }
+
+    .variety_text {
+        height: 250px;
+        line-height: 120%;
+        padding: 12px;
+    }
+
+    .comments {
+        flex-wrap: wrap;
+    }
+
+    .comment {
+        width: 230px;
+        margin: 10px 0;
+    }
+
+    .question {
+        width: 340px;
+        padding-top: 8px;
+    }
+
+    .questions {
+        column-gap: 24px;
+    }
+
+    .question_text {
+        text-align: left;
+    }
+
+    .header_info_background {
+        background-position: 20% 52%;
+    }
+
+    .main_photo {
+        background-position: 50% 40%;
+        min-width: 360px;
+        height: auto;
+    }
+
+    .portfolio {
+        column-gap: 25px;
+    }
+
+    .worth {
+        margin: 6px 0;
+    }
+
+    .text_black_20 {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 990px) {
+    .header_navigation {
+        padding: 24px;
+    }
+
+    .header_info_background {
+        height: max-content;
+        background-size: 926px 616px;
+        background-position: 0% 55%;
+    }
+
+    .header_text {
+        border-radius: 0;
+        position: static;
+        margin-top: 0;
+        width: 100%;
+        padding: 16px 24px;
+        height: max-content;
+    }
+
+    .h_header {
+        font-size: 32px;
+    }
+
+    .p_header {
+        font-size: 14px;
+    }
+
+    .section_container {
+        padding: 40px 24px;
+    }
+
+    .main_photo {
+        display: inline-block;
+        width: 390px;
+        height: 298px;
+    }
+
+    .portfolio {
+        display: block;
+    }
+
+    .portfolio_info {
+        align-items: center;
+    }
+
+    .h_portfolio {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .text_portfolio {
+        text-align: center;
+        font-size: 14px;
+        width: 490px;
+    }
+
+    .worths {
+        font-size: 14px;
+        display: block;
+        text-align: center;
+    }
+
+    .line {
+        align-self: center;
+        margin: 16px;
+    }
+
+    .line_2 {
+        margin: 24px 0;
+    }
+
+    .varieties {
+        display: block;
+    }
+
+    .variety {
+        width: 380px;
+        margin: 0 auto 20px;
+    }
+
+    .variety_text {
+        height: 200px;
+    }
+
+    .advantages_block {
+        display: block;
+    }
+
+    .h_advantage {
+        font-size: 20px;
+    }
+
+    .comments {
+        display: block;
+    }
+
+    .comment {
+        width: 100%;
+    }
+
+    .questions {
+        display: block;
+    }
+
+    .question {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+}
+
+@media(max-width: 590px) {
+
+    body {
+        width: 100%;
+    }
+
+    .section_container {
+        width: 100%;
+        padding: 40px 16px;
+    }
+
+    .header_navigation {
+        font-size: 0;
+    }
+
+    .header_info_background {
+        background-position: 25% 50%;
+    }
+
+    .header_text {
+        padding: 16px;
+    }
+
+    .sign_up_btn {
+        width: 100%;
+    }
+
+    .main_photo {
+        min-width: 0;
+        width: 100%;
+        background-position: 50% 35%;
+    }
+
+    .h_portfolio {
+        text-align: left;
+    }
+
+    .portfolio_info {
+        align-items: start;
+    }
+
+    .text_portfolio {
+        text-align: left;
+        width: 100%;
+    }
+
+    .line {
+        align-self: normal;
+        margin: 16px 0;
+    }
+
+    .worths {
+        text-align: left;
+    }
+
+    .worth {
+        line-height: 100%;
+        align-items: start;
+    }
+
+    .varieties {
+        align-self: center;
+        width: 100%;
+    }
+
+    .variety {
+        width: 100%;
+    }
+
+    .variety_text {
+        height: max-content;
+    }
+
+    a {
+        text-wrap: nowrap;
+    }
+
+    .text_black_18 {
+        font-size: 16px;
+    }
+
+    .text_black_20 {
+        font-size: 16px;
+        line-height: 100%;
+        margin-bottom: 25px;
+    }
+
+    .dropdownImg {
+        display: block;
+        cursor: pointer;
+    }
+}

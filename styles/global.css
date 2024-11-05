@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.background_grey {
+    background-color: #F0EFEB;
+}
+
+.text_color_green {
+    color: #738B69;
+}
+
+.text_color_lightgrey {
+    color: #F0EFEB;
+}
+
+.text_black_16 {
+    font-family: 'Roboto Flex';
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.text_black_18 {
+    font-family: 'Roboto Flex';
+    font-size: 18px;
+    text-align: center;
+    line-height: 130%;
+}
+
+.text_black_20 {
+    font-family: 'Roboto Flex';
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin: auto;
+    line-height: 130%;
+}
+
+.text_portfolio {
+    font-family: 'Roboto Flex';
+    font-size: 18px;
+    text-align: left;
+    line-height: 130%;
+    margin-bottom: 16px
+}
+
+.text_black_24 {
+    font-family: 'Roboto Flex';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+a {
+    color: #2B2B2B;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.header_navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+    padding: 24px 132px;
+}
+
+.header_info_background {
+    height: 422px;
+    background-image: url(../images/Massage-1.jpg);
+    background-position: 15% 52%;
+    background-size: 1935px 1288px;
+}
+
+.header_text {
+    height: 334px;
+    width: 568px;
+    background-color: rgba(7, 7, 7, .6);
+    font-family: 'Roboto Flex';
+    padding: 36px 24px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-top: 88px;
+    margin-left: 132px;
+    position: absolute;
+}
+
+.h_header {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'PT Serif';
+}
+
+.h_portfolio {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'PT Serif';
+    line-height: 110%;
+    text-align: left;
+}
+
+.h_variety {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'PT Serif';
+    line-height: 110%;
+}
+
+.h_advantage {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'PT Serif';
+    line-height: 110%;
+    margin: 24px 0 16px 0;
+}
+
+.p_header {
+    display: inline-block;
+    line-height: 160%;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.main_photo {
+    background-image: url(../images/MainPhoto.jpg);
+    background-size: cover;
+    background-position: 50% 40%;
+    min-width: 568px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.portfolio {
+    display: flex;
+    column-gap: 40px;
+}
+
+.portfolio_info {
+    display: flex;
+    flex-direction: column;
+    line-height: 130%;
+    text-align: left;
+
+}
+
+.line {
+    width: 223px;
+    height: 2px;
+    margin: 32px 0;
+    float: left;
+}
+
+.line_2 {
+    width: 100px;
+    height: 2px;
+    margin: 40px 0;
+}
+
+.phone {
+    margin-bottom: 40px;
+}
+
+.worths {
+    font-family: 'Roboto Flex';
+    font-weight: 300;
+}
+
+.worth {
+    display: inline-flex;
+    margin: 12px 0;
+}
+
+.varieties {
+    display: flex;
+    column-gap: 40px;
+}
+
+.variety {
+    border-radius: 16px;
+}
+
+.variety_img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.variety_text {
+    font-family: 'Roboto Flex';
+    color: #2B2B2B;
+    line-height: 130%;
+    padding: 16px;
+}
+
+.advantages_block {
+    display: flex;
+}
+
+.advantage_div {
+    display: inline-block;
+    width: 100%;
+    height: 208px;
+}
+
+.section_container {
+    padding: 80px 132px;
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.comments {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comment {
+    width: 340px;
+    padding: 16px;
+    border-radius: 16px;
+    text-align: left;
+    margin: 10px;
+}
+
+
+
+.stars {
+    max-width: 136;
+    max-height: 24;
+    margin: 16px 0;
+    text-align: left;
+}
+
+.questions {
+    display: inline-flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.question {
+    width: 450px;
+    height: 60px;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.arrow {
+    vertical-align: middle;
+    float: left;
+    height: 30px;
+    width: 40px;
+    transition: all 0.25s linear;
+}
+
+.question_text {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.dropdownImg {
+    position: absolute;
+    display: none;
+}
+
+.dropdownContent {
+    position: absolute;
+    background-color: #ffffff;
+    max-width: 240px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: none;
+}
+
+.dropdownContent a {
+    display: block;
+    padding: 8px 170px 8px 16px;
+    font-family: 'Roboto Flex';
+}
+
+.dropdownContent a:hover {
+    background-color: #F0EFEB;
+}
