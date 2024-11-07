@@ -76,7 +76,7 @@ a:hover {
 
 .header_info_background {
     height: 422px;
-    background-image: url(../images/Massage-1.jpg);
+    background-image: url(../images/header-background.jpg);
     background-position: 15% 52%;
     background-size: 1935px 1288px;
 }
@@ -131,7 +131,7 @@ a:hover {
 }
 
 .main_photo {
-    background-image: url(../images/MainPhoto.jpg);
+    background-image: url(../images/main.jpg);
     background-size: cover;
     background-position: 50% 40%;
     min-width: 568px;
@@ -234,8 +234,6 @@ a:hover {
     margin: 10px;
 }
 
-
-
 .stars {
     max-width: 136;
     max-height: 24;
@@ -252,9 +250,8 @@ a:hover {
 
 .question {
     width: 450px;
-    height: 60px;
     border-radius: 16px;
-    padding: 16px;
+    padding: 22px 10px 10px;
     margin: 10px;
     overflow: hidden;
 }
@@ -262,15 +259,17 @@ a:hover {
 .arrow {
     vertical-align: middle;
     float: left;
+    margin-right: 8px;
     height: 30px;
     width: 40px;
-    transition: all 0.25s linear;
+    transition: all 0.15s ease-in;
 }
 
 .question_text {
     text-align: left;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 15px;
+    display: none;
 }
 
 .dropdownImg {

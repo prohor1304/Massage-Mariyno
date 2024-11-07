@@ -1,25 +1,29 @@
 // Растяжение/сжатие контейнера FAQ + поворот стрелки
 
 window.addEventListener('click', function (event) {
-    if (event.target.dataset.img === 'arrow' && event.target.dataset.rotated === 'false') {
-        const arrow = event.target.closest('.arrow');
+    if (event.target.dataset.trg === 'arrow' && event.target.dataset.rotated === 'false') {
         const questionBlock = event.target.closest('.question');
+        const arrow = questionBlock.querySelector('.arrow');
+        const questionHeader = questionBlock.querySelector('.questionHeader');
+        const questionText = questionBlock.querySelector('.question_text');
 
         arrow.style.transform = 'rotate(180deg)';
-        questionBlock.style.height = 'max-content';
+        questionText.style.display = 'flex';
 
         arrow.dataset.rotated = true;
-        questionBlock.dataset.rotated = true;
+        questionHeader.dataset.rotated = true;
 
-    } else if (event.target.dataset.img === 'arrow' && event.target.dataset.rotated === 'true') {
+    } else if (event.target.dataset.trg === 'arrow' && event.target.dataset.rotated === 'true') {
         const questionBlock = event.target.closest('.question');
-        const arrow = event.target.closest('.arrow');
+        const arrow = questionBlock.querySelector('.arrow');
+        const questionHeader = questionBlock.querySelector('.questionHeader');
+        const questionText = questionBlock.querySelector('.question_text');
 
         arrow.style.transform = 'rotate(0deg)';
-        questionBlock.style.height = '60px';
+        questionText.style.display = 'none';
 
         arrow.dataset.rotated = false;
-        questionBlock.dataset.rotated = false;
+        questionHeader.dataset.rotated = false;
     }
 })
 
