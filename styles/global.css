@@ -5,9 +5,8 @@ html {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 5px;
 }
 
 .background_grey {
@@ -242,18 +241,17 @@ a:hover {
 }
 
 .questions {
-    display: inline-flex;
-    flex-wrap: wrap;
+    display: flex;
     column-gap: 15px;
     justify-content: center;
 }
 
 .question {
+    align-self: flex-start;
     width: 450px;
     border-radius: 16px;
-    padding: 22px 10px 10px;
+    padding: 16px;
     margin: 10px;
-    overflow: hidden;
 }
 
 .arrow {
