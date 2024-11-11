@@ -266,7 +266,7 @@ a:hover {
 
 .arrow:active {
     position: relative;
-    top: 3px;
+    top: 2px;
 }
 
 .question_text {
