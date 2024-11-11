@@ -185,6 +185,7 @@ a:hover {
 
 .variety {
     border-radius: 16px;
+    flex-basis: 100%;
 }
 
 .variety_img {
@@ -261,6 +262,11 @@ a:hover {
     height: 30px;
     width: 40px;
     transition: all 0.15s ease-in;
+}
+
+.arrow:active {
+    position: relative;
+    top: 3px;
 }
 
 .question_text {
