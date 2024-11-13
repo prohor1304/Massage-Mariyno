@@ -269,6 +269,11 @@ a:hover {
     top: 2px;
 }
 
+.arrow:hover,
+.questionHeader:hover {
+    cursor: pointer;
+}
+
 .question_text {
     text-align: left;
     margin-left: 50px;
