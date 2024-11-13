@@ -21,7 +21,6 @@
 
     .question {
         width: 340px;
-        padding-top: 8px;
     }
 
     .questions {
@@ -48,10 +47,6 @@
 
     .worth {
         margin: 6px 0;
-    }
-
-    .text_black_20 {
-        font-size: 18px;
     }
 }
 
@@ -142,10 +137,12 @@
 
     .advantages_block {
         display: block;
+        column-gap: 30px;
     }
 
     .h_advantage {
         font-size: 20px;
+        margin: 16px 0;
     }
 
     .comments {
@@ -162,7 +159,6 @@
 
     .question {
         width: 100%;
-        padding-top: 20px;
     }
 
 }
@@ -171,6 +167,10 @@
 
     body {
         width: 100%;
+    }
+
+    .container {
+        padding: 0;
     }
 
     .section_container {
@@ -187,7 +187,7 @@
     }
 
     .header_text {
-        padding: 16px;
+        padding: 48px 16px;
     }
 
     .sign_up_btn {
@@ -224,7 +224,7 @@
 
     .worth {
         line-height: 100%;
-        align-items: start;
+        align-items: center;
     }
 
     .varieties {
@@ -244,14 +244,17 @@
         text-wrap: nowrap;
     }
 
-    .text_black_18 {
-        font-size: 16px;
+    .questions {
+        margin-right: 16px;
     }
 
-    .text_black_20 {
-        font-size: 16px;
-        line-height: 100%;
-        margin-bottom: 25px;
+    .questionHeader {
+        margin-left: 50px;
+    }
+
+    p.text_black_20 {
+        line-height: 120%;
+        text-align: left;
     }
 
     .dropdownImg {

@@ -5,9 +5,8 @@ html {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 5px;
 }
 
 .background_grey {
@@ -76,7 +75,7 @@ a:hover {
 
 .header_info_background {
     height: 422px;
-    background-image: url(../images/Massage-1.jpg);
+    background-image: url(../images/header-background.jpg);
     background-position: 15% 52%;
     background-size: 1935px 1288px;
 }
@@ -131,7 +130,7 @@ a:hover {
 }
 
 .main_photo {
-    background-image: url(../images/MainPhoto.jpg);
+    background-image: url(../images/main.jpg);
     background-size: cover;
     background-position: 50% 40%;
     min-width: 568px;
@@ -186,6 +185,7 @@ a:hover {
 
 .variety {
     border-radius: 16px;
+    flex-basis: 100%;
 }
 
 .variety_img {
@@ -234,8 +234,6 @@ a:hover {
     margin: 10px;
 }
 
-
-
 .stars {
     max-width: 136;
     max-height: 24;
@@ -244,33 +242,38 @@ a:hover {
 }
 
 .questions {
-    display: inline-flex;
-    flex-wrap: wrap;
+    display: flex;
     column-gap: 15px;
     justify-content: center;
 }
 
 .question {
+    align-self: flex-start;
     width: 450px;
-    height: 60px;
     border-radius: 16px;
     padding: 16px;
     margin: 10px;
-    overflow: hidden;
 }
 
 .arrow {
     vertical-align: middle;
     float: left;
+    margin-right: 8px;
     height: 30px;
     width: 40px;
-    transition: all 0.25s linear;
+    transition: all 0.15s ease-in;
+}
+
+.arrow:active {
+    position: relative;
+    top: 2px;
 }
 
 .question_text {
     text-align: left;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 15px;
+    display: none;
 }
 
 .dropdownImg {
