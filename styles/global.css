@@ -9,8 +9,25 @@ html {
     margin: 0 auto;
 }
 
+.section_container {
+    padding: 80px 132px;
+    text-align: center;
+}
+
 .background_grey {
     background-color: #F0EFEB;
+}
+
+.shadow {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+a {
+    color: #2B2B2B;
+}
+
+a:hover {
+    opacity: 0.7;
 }
 
 .text_color_green {
@@ -43,14 +60,6 @@ html {
     line-height: 130%;
 }
 
-.text_portfolio {
-    font-family: 'Roboto Flex';
-    font-size: 18px;
-    text-align: left;
-    line-height: 130%;
-    margin-bottom: 16px
-}
-
 .text_black_24 {
     font-family: 'Roboto Flex';
     font-size: 24px;
@@ -58,12 +67,42 @@ html {
     line-height: 110%;
 }
 
-a {
-    color: #2B2B2B;
+.line {
+    width: 223px;
+    height: 2px;
+    margin: 32px 0;
+    float: left;
 }
 
-a:hover {
-    opacity: 0.7;
+.line_2 {
+    width: 100px;
+    height: 2px;
+    margin: 40px 0;
+}
+
+.phone {
+    margin-bottom: 40px;
+}
+
+.stars {
+    max-width: 136;
+    max-height: 24;
+    margin: 16px 0;
+    text-align: left;
+}
+
+.arrow {
+    vertical-align: middle;
+    float: left;
+    margin-right: 8px;
+    height: 30px;
+    width: 40px;
+    transition: all 0.15s ease-in;
+}
+
+.arrow:active {
+    position: relative;
+    top: 2px;
 }
 
 .header_navigation {
@@ -76,8 +115,16 @@ a:hover {
 .header_info_background {
     height: 422px;
     background-image: url(../images/header-background.jpg);
-    background-position: 15% 52%;
-    background-size: 1935px 1288px;
+    background-repeat: no-repeat;
+    background-position: 10% 55%;
+    background-size: cover;
+}
+
+.p_header {
+    display: inline-block;
+    line-height: 160%;
+    font-size: 16px;
+    margin-top: 16px;
 }
 
 .header_text {
@@ -107,32 +154,18 @@ a:hover {
     text-align: left;
 }
 
-.h_variety {
-    font-size: 24px;
-    font-weight: 700;
-    font-family: 'PT Serif';
-    line-height: 110%;
-}
-
-.h_advantage {
-    font-size: 32px;
-    font-weight: 700;
-    font-family: 'PT Serif';
-    line-height: 110%;
-    margin: 24px 0 16px 0;
-}
-
-.p_header {
-    display: inline-block;
-    line-height: 160%;
-    font-size: 16px;
-    margin-top: 16px;
+.text_portfolio {
+    font-family: 'Roboto Flex';
+    font-size: 18px;
+    text-align: left;
+    line-height: 130%;
+    margin-bottom: 16px
 }
 
 .main_photo {
     background-image: url(../images/main.jpg);
     background-size: cover;
-    background-position: 50% 40%;
+    background-position: 0 35%;
     min-width: 568px;
     height: auto;
     border-radius: 16px;
@@ -151,23 +184,6 @@ a:hover {
 
 }
 
-.line {
-    width: 223px;
-    height: 2px;
-    margin: 32px 0;
-    float: left;
-}
-
-.line_2 {
-    width: 100px;
-    height: 2px;
-    margin: 40px 0;
-}
-
-.phone {
-    margin-bottom: 40px;
-}
-
 .worths {
     font-family: 'Roboto Flex';
     font-weight: 300;
@@ -180,11 +196,13 @@ a:hover {
 
 .varieties {
     display: flex;
+    justify-content: center;
     column-gap: 40px;
 }
 
 .variety {
     border-radius: 16px;
+    max-width: 365px;
     flex-basis: 100%;
 }
 
@@ -193,7 +211,15 @@ a:hover {
     border-top-right-radius: 16px;
 }
 
-.variety_text {
+.h_variety {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'PT Serif';
+    line-height: 110%;
+    margin-bottom: 16px;
+}
+
+.variety_info {
     font-family: 'Roboto Flex';
     color: #2B2B2B;
     line-height: 130%;
@@ -206,67 +232,47 @@ a:hover {
 
 .advantage_div {
     display: inline-block;
+    justify-items: center;
     width: 100%;
-    height: 208px;
 }
 
-.section_container {
-    padding: 80px 132px;
-    text-align: center;
+.h_advantage {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'PT Serif';
+    line-height: 110%;
+    margin: 24px 0 16px 0;
 }
 
-.shadow {
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+.p_advantage {
+    max-width: 322px;
+    display: block;
 }
 
 .comments {
     display: flex;
-    column-gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
+    column-gap: 40px;
+    justify-content:space-between;
 }
 
 .comment {
-    width: 340px;
     padding: 16px;
     border-radius: 16px;
     text-align: left;
-    margin: 10px;
-}
-
-.stars {
-    max-width: 136;
-    max-height: 24;
-    margin: 16px 0;
-    text-align: left;
+    flex-basis: 100%;
 }
 
 .questions {
     display: flex;
-    column-gap: 15px;
+    column-gap: 32px;
     justify-content: center;
 }
 
 .question {
     align-self: flex-start;
-    width: 450px;
+    width: 570px;
     border-radius: 16px;
     padding: 16px;
-    margin: 10px;
-}
-
-.arrow {
-    vertical-align: middle;
-    float: left;
-    margin-right: 8px;
-    height: 30px;
-    width: 40px;
-    transition: all 0.15s ease-in;
-}
-
-.arrow:active {
-    position: relative;
-    top: 2px;
 }
 
 .question_text {
