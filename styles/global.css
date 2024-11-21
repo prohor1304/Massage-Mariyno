@@ -179,6 +179,8 @@ a:hover {
 }
 
 .worths {
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto Flex';
     font-weight: 300;
 }
