@@ -13,10 +13,6 @@
         margin: 16px 0;
     }
 
-    .questions {
-        column-gap: 24px;
-    }
-
     .question_text {
         text-align: left;
     }
@@ -149,11 +145,16 @@
 
     .questions {
         flex-wrap: wrap;
-        gap: 16px;
     }
 
     .question {
         width: 100%;
+        margin: 8px;
+        min-width: 0;
+    }
+
+    .contacts {
+        column-gap: 0;
     }
 
 }
@@ -247,5 +248,13 @@
     .dropdownImg {
         display: block;
         cursor: pointer;
+    }
+
+    .contacts {
+        display: block;
+    }
+
+    .contact {
+        margin-bottom: 40px;
     }
 }
