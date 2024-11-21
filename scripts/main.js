@@ -1,3 +1,10 @@
+window.addEventListener('load', function () {
+    var lazyLoadInstance = new LazyLoad({
+        elements_selector: "[data-src],[data-bg]", // селектор
+        threshold: 200 // Количество пикселей до того, как элемент начнёт загружаться
+    });
+});
+
 // Растяжение/сжатие контейнера FAQ + поворот стрелки
 
 window.addEventListener('click', function (event) {
