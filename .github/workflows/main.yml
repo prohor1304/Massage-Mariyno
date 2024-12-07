@@ -23,7 +23,7 @@ jobs:
           username: ${{ secrets.STAKECRM_USERNAME }}
           port: ${{ secrets.STAKECRM_PORT }}
           key: ${{ secrets.STAKECRM_SSHKEY }}
-          source: '.,!.git,web/index.php'
+          source: '.,!.git'
           target: '/home/admin/slavapakeev.ru'
 
       - name: Migrate
