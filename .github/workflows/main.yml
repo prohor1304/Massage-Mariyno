@@ -36,4 +36,5 @@ jobs:
           port: ${{ secrets.STAKECRM_PORT }}
           key: ${{ secrets.STAKECRM_SSHKEY }}
           script: |
-            ls -la
+            cd slavapakeev.ru
+            docker-compose up -d --build
